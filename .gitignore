@@ -1,0 +1,30 @@
+# Game data and everything derived from the game's code stays out of the repo
+/gamedata/
+/game/
+src/gen/
+re/*
+!re/*/
+re/*/*
+!re/*/functions.tsv
+shots/
+
+# build output
+build/
+dist/
+*.exe
+*.o
+__pycache__/
+
+# local runtime files
+*.log
+*_pc.ini
+tools/trace.txt
+shots_old/
+hr.raw
+lo.raw
+lo1.raw
+hrcmp_*.txt
+prof.txt
+wavout.raw
+graphify-out/
+shots_old/

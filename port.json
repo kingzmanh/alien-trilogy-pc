@@ -1,0 +1,29 @@
+{
+  "title": "Alien Trilogy",
+  "short": "trilogy",
+  "id": "AlienTrilogy",
+  "env": "AT_",
+  "programs": [
+    {
+      "tag": "trilogy",
+      "exe": "../TRILOGY.EXE",
+      "load": "hd\\TRILOGY.EXE",
+      "dospath": "C:\\TRILOGY.EXE"
+    },
+    {
+      "tag": "dukdos",
+      "exe": "DUKDOS.EXE",
+      "load": "hd\\DUKDOS.EXE",
+      "dospath": "C:\\DUKDOS.EXE",
+      "reloc": "0x3000000"
+    }
+  ],
+  "libs": [
+    "miles_ail3"
+  ],
+  "cd_files": [
+    "DUKDOS.EXE",
+    "CD/AVI/INTRO.AVI"
+  ],
+  "icon_lbm": ""
+}
