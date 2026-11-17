@@ -16,6 +16,8 @@ You need your own copy: the Alien Trilogy PC CD (EU version - disc, CCD/IMG, ISO
 the official European patch 2.0b (ATUPDEU1, from the "Fixes" download; zip, folder or T16P.SHR).
 
 ## Install
+**Download:** [Alien Trilogy PC Setup.exe](https://github.com/kingzmanh/alien-trilogy-pc/releases/latest) (Releases).
+
 Run `Alien Trilogy PC Setup.exe`, pick the CD and the patch, install. Silent:
 `setup.exe /silent /cd <image|drive|folder> /patch <zip|folder> /dir <folder> [/nodesktop] [/nostartmenu]`
 
